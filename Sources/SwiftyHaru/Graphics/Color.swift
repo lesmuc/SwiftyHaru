@@ -366,12 +366,11 @@ public struct Color {
     }
 }
 
-extension Color: _ExpressibleByColorLiteral {
-    
+/*extension Color: _ExpressibleByColorLiteral {
     public init(colorLiteralRed: Float, green: Float, blue: Float, alpha: Float) {
         self.init(red: colorLiteralRed, green: green, blue: blue, alpha: alpha)!
     }
-}
+}*/
 
 extension Color: Equatable {
     
